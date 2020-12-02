@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"io/ioutil"
@@ -8,7 +8,7 @@ import (
 	"gonum.org/v1/gonum/stat/combin"
 )
 
-func main() {
+func part2() {
 	input, _ := ioutil.ReadFile("day-1/input.txt")
 
 	stringArray := strings.Split(string(input), "\n")

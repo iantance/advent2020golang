@@ -1,4 +1,4 @@
-package main
+package day2
 
 import (
 	"io/ioutil"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func part2() {
 	input, _ := ioutil.ReadFile("day-2/input.txt")
 
 	lines := strings.Split(string(input), "\n")

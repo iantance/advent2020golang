@@ -1,4 +1,4 @@
-package main
+package day2
 
 import (
 	"io/ioutil"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func part1() {
 	input, _ := ioutil.ReadFile("day-2/input.txt")
 
 	lines := strings.Split(string(input), "\n")
@@ -22,7 +22,6 @@ func main() {
 			min, _ := strconv.Atoi(charRange[1])
 			max, _ := strconv.Atoi(charRange[2])
 			if charCount >= min && charCount <= max {
-				println("TRUE!")
 				successCount++
 			}
 		}
