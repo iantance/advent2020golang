@@ -1,7 +1,7 @@
-package day5
+package day6
 
 func Solve() {
-	println("Day 5")
+	println("Day 6")
 	println("Part 1")
 	part1()
 	println("Part 2")
