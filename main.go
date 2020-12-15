@@ -1,6 +1,6 @@
 package main
 
-import day12 "github.com/iantance/advent2020golang/day-12"
+import day15 "github.com/iantance/advent2020golang/day-15"
 
 func main() {
 	// day1.Solve()
@@ -14,5 +14,8 @@ func main() {
 	// day9.Solve()
 	// day10.Solve()
 	// day11.Solve()
-	day12.Solve()
+	// day12.Solve()
+	// day13.Solve()
+	// day14.Solve()
+	day15.Solve()
 }

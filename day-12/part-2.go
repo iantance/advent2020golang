@@ -15,16 +15,12 @@ func part2() {
 	wpy := 1
 	sx := 0
 	sy := 0
-	// directions := []string{"N", "E", "S", "W"}
 
 	for _, i := range instructions {
 		if i == "" {
 			continue
 		}
-		// println(i)
-		// println(x)
-		// println(y)
-		// println(directions[directionIndex])
+
 		command := i[:1]
 		amplitude, _ := strconv.Atoi(i[1:])
 		switch command {
